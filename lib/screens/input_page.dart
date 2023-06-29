@@ -11,7 +11,8 @@ class _InputPageState extends State<InputPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("BMI Calculator"),
+        backgroundColor: Color(0xFF0A0E21),
+        title: Text("BMI CALCULATOR"),
         centerTitle: true,
       ),
       body: Center(child: Text("Body Text"),),
