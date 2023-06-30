@@ -15,7 +15,15 @@ class _InputPageState extends State<InputPage> {
         title: Text("BMI CALCULATOR"),
         centerTitle: true,
       ),
-      body: Center(child: Text("Body Text"),),
+      body: Column(
+        children: [
+          Row(
+            children: [
+
+            ],
+          )
+        ],
+      ),
 
     );
   }
