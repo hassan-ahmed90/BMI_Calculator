@@ -1,3 +1,5 @@
+import 'package:bmi_calculator/component/constant.dart';
+import 'package:bmi_calculator/screens/input_page.dart';
 import 'package:flutter/material.dart';
 
 
@@ -11,11 +13,9 @@ class IconContent extends StatelessWidget {
     return Column(
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
-        Icon(icon,size: 80,),
+        Icon(icon,size: kbottomContainerHeight,),
         Text(title,
-          style: TextStyle(
-              fontSize: 18,
-              color: Color(0xFF8D8E98)),),
+          style: klabetTextStyle),
       ],
     );
   }
