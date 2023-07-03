@@ -42,11 +42,14 @@ class _InputPageState extends State<InputPage> {
   Widget build(BuildContext context) {
 
     return Scaffold(
+
       appBar: AppBar(
         backgroundColor: Color(0xFF0A0E21),
         title: Text("BMI CALCULATOR"),
-        centerTitle: true,
+        //centerTitle: true,
+
       ),
+
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
@@ -115,22 +118,13 @@ class _InputPageState extends State<InputPage> {
             ), onpress: (){
                 }),
           ),
-          // Container(
-          //   height: 170,
-          //   width: double.infinity,
-          //   margin: EdgeInsets.all(10),
-          //   decoration: BoxDecoration(
-          //     color:kactiveCardcolor,
-          //     borderRadius: BorderRadius.circular(10),
-          //   ),
-          // ),
+
           Expanded(
             child: Row(
               children: [
                 Expanded(
                     child: ReusableCard(
                       onpress: (){
-
                       },
                   colour: kactiveCardcolor,
                       cardChild: IconContent(title: "Age",icon: FontAwesomeIcons.plus,),)),
@@ -141,7 +135,6 @@ class _InputPageState extends State<InputPage> {
                       },
                       colour: kactiveCardcolor,
                       cardChild: IconContent(title: "Weight",icon: FontAwesomeIcons.minus,),)),
-
               ],
             ),
           ),
