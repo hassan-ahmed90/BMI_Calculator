@@ -1,4 +1,5 @@
-import 'package:bmi_calculator/screens/input_page.dart';
+import 'package:bmi_calculator/screens/splash_screen.dart';
+
 import 'package:flutter/material.dart';
 
 void main() {
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
           bodyLarge: TextStyle(color: Colors.white),
         ),
       ),
-      home: InputPage(),
+      home: SplashScreen(),
     );
   }
 }
